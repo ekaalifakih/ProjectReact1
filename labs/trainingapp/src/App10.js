@@ -1,10 +1,11 @@
+import "./App.css";
 import React from "react";
-import { FrontController } from "./pages/FrontController";
-
+import { Satu, Dua } from "./MyComponentCss";
 function App() {
   return (
     <div>
-      <FrontController />
+      <Satu />
+      <Dua />
     </div>
   );
 }
